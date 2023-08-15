@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="p-4 bg-container">
+        <h1 class="heading">Update Password</h1>
+        <form id="updatePasswordForm">
+            <label for='newPassword' class="text">NEW PASSWORD</label>
+            <input type="text" id="newPassword" class="form-control mb-3" placeholder="create new password" />
+            <p id="newPasswordErrMsg"></p>
+            <label for="confirmPassword" class="text">NEW PASSWORD</label>
+            <input type="password" id="confirmPassword" class="form-control mb-3" placeholder="Confirm Password" />
+            <p id="confirmPasswordErrMsg"></p>
+            <div class="updateBtn"><button id="updateBtn" type="submit" class="btn btn-primary">Update</button></div>
+        </form>
+    </div>
+</body>
+
+</html>
